@@ -167,6 +167,7 @@ def git_push():
             subprocess.run(["git", "add", f], check=True)
         result = subprocess.run(["git", "status", "--porcelain"], capture_output=True, text=True)
         if result.stdout.strip():
+            subprocess.run(["git", "add", "-A"], check=True)
             subprocess.run(["git", "commit", "-m", "auto update data"], check=True)
             subprocess.run(["git", "push"], check=True)
             print("\n已自动推送到GitHub")
