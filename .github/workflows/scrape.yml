@@ -3,7 +3,7 @@ name: Scrape Cinebench Data
 on:
   workflow_dispatch:
   schedule:
-    - cron: '0 3 * * *'
+    - cron: '0 22 * * *'   # 每天UTC时间22:00执行，即北京时间次日06:00
 
 jobs:
   scrape:
