@@ -1,0 +1,5 @@
+*
+!.gitignore
+!cinebench.py
+!cinebench_scores.json
+!cpu_cinebench_data_1_3.csv
