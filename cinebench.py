@@ -162,7 +162,9 @@ import subprocess
 
 def git_push():
     try:
-        subprocess.run(["git", "add", "."], check=True)
+        files_to_push = ["cinebench.py", "cinebench_scores.json", "cpu_cinebench_data_1_3.csv"]
+        for f in files_to_push:
+            subprocess.run(["git", "add", f], check=True)
         result = subprocess.run(["git", "status", "--porcelain"], capture_output=True, text=True)
         if result.stdout.strip():
             subprocess.run(["git", "commit", "-m", "auto update data"], check=True)
