@@ -179,4 +179,3 @@ def git_push():
 
 if __name__ == "__main__":
     scrape_nanoreview_cpu_scores(1, 3, max_workers=3)
-    git_push()
