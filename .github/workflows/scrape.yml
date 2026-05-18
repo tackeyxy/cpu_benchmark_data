@@ -3,11 +3,13 @@ name: Scrape Cinebench Data
 on:
   workflow_dispatch:
   schedule:
-    - cron: '0 22 * * *'   # 每天UTC时间22:00执行，即北京时间次日06:00
+    - cron: '0 22 * * *'
 
 jobs:
   scrape:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write   # 授予对仓库内容的写权限
 
     steps:
       - name: Checkout repository
