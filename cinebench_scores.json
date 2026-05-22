@@ -1283,7 +1283,7 @@
     "CPU":"Core Ultra X7 358H",
     "2024 SingleScore*":"124",
     "2024 MultiScore**":"1001",
-    "Cores":"16(8E + 4P)",
+    "Cores":"16(12E + 4P)",
     "Max. TDP":"80 W"
   },
   {
@@ -1364,7 +1364,7 @@
     "CPU":"Core Ultra 7 356H",
     "2024 SingleScore*":"122",
     "2024 MultiScore**":"971",
-    "Cores":"16(8E + 4P)",
+    "Cores":"16(12E + 4P)",
     "Max. TDP":"80 W"
   },
   {
