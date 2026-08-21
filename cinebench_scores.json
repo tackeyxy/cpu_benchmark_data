@@ -1180,6 +1180,15 @@
   },
   {
     "Ranking":132,
+    "Platform":"Desktop",
+    "CPU":"Ryzen 5 Pro 9645",
+    "2024 SingleScore*":"132",
+    "2024 MultiScore**":"1082",
+    "Cores":"6(6P)",
+    "Max. TDP":"null"
+  },
+  {
+    "Ranking":133,
     "Platform":"Laptop",
     "CPU":"Ryzen AI 9 365",
     "2024 SingleScore*":"117",
@@ -1188,7 +1197,7 @@
     "Max. TDP":"null"
   },
   {
-    "Ranking":133,
+    "Ranking":134,
     "Platform":"Desktop",
     "CPU":"Core i7 12700",
     "2024 SingleScore*":"106",
@@ -1197,7 +1206,7 @@
     "Max. TDP":"180 W"
   },
   {
-    "Ranking":134,
+    "Ranking":135,
     "Platform":"Laptop",
     "CPU":"Ryzen 7 7745HX",
     "2024 SingleScore*":"110",
@@ -1206,7 +1215,7 @@
     "Max. TDP":"null"
   },
   {
-    "Ranking":135,
+    "Ranking":136,
     "Platform":"Laptop",
     "CPU":"M3 Pro",
     "2024 SingleScore*":"143",
@@ -1215,7 +1224,7 @@
     "Max. TDP":"null"
   },
   {
-    "Ranking":136,
+    "Ranking":137,
     "Platform":"Laptop",
     "CPU":"Core i7 12700H",
     "2024 SingleScore*":"103",
@@ -1224,7 +1233,7 @@
     "Max. TDP":"115 W"
   },
   {
-    "Ranking":137,
+    "Ranking":138,
     "Platform":"Laptop",
     "CPU":"Core Ultra 7 255H",
     "2024 SingleScore*":"125",
@@ -1233,7 +1242,7 @@
     "Max. TDP":"115 W"
   },
   {
-    "Ranking":138,
+    "Ranking":139,
     "Platform":"Desktop",
     "CPU":"Ryzen 7 7700",
     "2024 SingleScore*":"115",
@@ -1242,7 +1251,7 @@
     "Max. TDP":"142 W"
   },
   {
-    "Ranking":139,
+    "Ranking":140,
     "Platform":"Desktop",
     "CPU":"Ryzen 9 3900XT",
     "2024 SingleScore*":"74",
@@ -1251,7 +1260,7 @@
     "Max. TDP":"null"
   },
   {
-    "Ranking":140,
+    "Ranking":141,
     "Platform":"Laptop",
     "CPU":"Ryzen AI 9 465",
     "2024 SingleScore*":"114",
@@ -1260,7 +1269,7 @@
     "Max. TDP":"null"
   },
   {
-    "Ranking":141,
+    "Ranking":142,
     "Platform":"Laptop",
     "CPU":"Core i7 13650HX",
     "2024 SingleScore*":"108",
@@ -1269,7 +1278,7 @@
     "Max. TDP":"157 W"
   },
   {
-    "Ranking":142,
+    "Ranking":143,
     "Platform":"Desktop",
     "CPU":"Ryzen 5 9600X",
     "2024 SingleScore*":"135",
@@ -1278,7 +1287,7 @@
     "Max. TDP":"142 W"
   },
   {
-    "Ranking":143,
+    "Ranking":144,
     "Platform":"Laptop",
     "CPU":"Core 7 240H",
     "2024 SingleScore*":"119",
@@ -1287,7 +1296,7 @@
     "Max. TDP":"115 W"
   },
   {
-    "Ranking":144,
+    "Ranking":145,
     "Platform":"Laptop",
     "CPU":"M2 Max",
     "2024 SingleScore*":"122",
@@ -1296,7 +1305,7 @@
     "Max. TDP":"null"
   },
   {
-    "Ranking":145,
+    "Ranking":146,
     "Platform":"Desktop",
     "CPU":"Core i7 13700",
     "2024 SingleScore*":"119",
@@ -1305,7 +1314,7 @@
     "Max. TDP":"219 W"
   },
   {
-    "Ranking":146,
+    "Ranking":147,
     "Platform":"Laptop",
     "CPU":"Core i7 14650HX",
     "2024 SingleScore*":"114",
@@ -1314,7 +1323,7 @@
     "Max. TDP":"157 W"
   },
   {
-    "Ranking":147,
+    "Ranking":148,
     "Platform":"Laptop",
     "CPU":"Core i9 13900HK",
     "2024 SingleScore*":"111",
@@ -1323,7 +1332,7 @@
     "Max. TDP":"115 W"
   },
   {
-    "Ranking":148,
+    "Ranking":149,
     "Platform":"Laptop",
     "CPU":"Core i7 13800H",
     "2024 SingleScore*":"117",
@@ -1332,7 +1341,7 @@
     "Max. TDP":"115 W"
   },
   {
-    "Ranking":149,
+    "Ranking":150,
     "Platform":"Laptop",
     "CPU":"Core i9 12900HK",
     "2024 SingleScore*":"114",
@@ -1341,7 +1350,7 @@
     "Max. TDP":"115 W"
   },
   {
-    "Ranking":150,
+    "Ranking":151,
     "Platform":"Laptop",
     "CPU":"Core i7 12650HX",
     "2024 SingleScore*":"102",
@@ -1350,7 +1359,7 @@
     "Max. TDP":"157 W"
   },
   {
-    "Ranking":151,
+    "Ranking":152,
     "Platform":"Laptop",
     "CPU":"Core Ultra 5 225H",
     "2024 SingleScore*":"122",
@@ -1359,7 +1368,7 @@
     "Max. TDP":"115 W"
   },
   {
-    "Ranking":152,
+    "Ranking":153,
     "Platform":"Desktop",
     "CPU":"Ryzen 7 8700G",
     "2024 SingleScore*":"103",
@@ -1368,7 +1377,7 @@
     "Max. TDP":"88 W"
   },
   {
-    "Ranking":153,
+    "Ranking":154,
     "Platform":"Laptop",
     "CPU":"Core Ultra 9 185H",
     "2024 SingleScore*":"107",
@@ -1377,7 +1386,7 @@
     "Max. TDP":"115 W"
   },
   {
-    "Ranking":154,
+    "Ranking":155,
     "Platform":"Laptop",
     "CPU":"Core i9 12900H",
     "2024 SingleScore*":"107",
@@ -1386,7 +1395,7 @@
     "Max. TDP":"115 W"
   },
   {
-    "Ranking":155,
+    "Ranking":156,
     "Platform":"Laptop",
     "CPU":"M4 (10-Core)",
     "2024 SingleScore*":"172",
@@ -1395,7 +1404,7 @@
     "Max. TDP":"40 W"
   },
   {
-    "Ranking":156,
+    "Ranking":157,
     "Platform":"Desktop",
     "CPU":"Ryzen 9 3900X",
     "2024 SingleScore*":"74",
@@ -1404,7 +1413,7 @@
     "Max. TDP":"null"
   },
   {
-    "Ranking":157,
+    "Ranking":158,
     "Platform":"Laptop",
     "CPU":"Core Ultra 5 235H",
     "2024 SingleScore*":"122",
@@ -1413,7 +1422,7 @@
     "Max. TDP":"115 W"
   },
   {
-    "Ranking":158,
+    "Ranking":159,
     "Platform":"Laptop",
     "CPU":"Ryzen 9 270",
     "2024 SingleScore*":"107",
@@ -1422,21 +1431,12 @@
     "Max. TDP":"null"
   },
   {
-    "Ranking":159,
+    "Ranking":160,
     "Platform":"Laptop",
     "CPU":"Ryzen AI 7 450",
     "2024 SingleScore*":"118",
     "2024 MultiScore**":"972",
     "Cores":"8(4E + 4P)",
-    "Max. TDP":"null"
-  },
-  {
-    "Ranking":160,
-    "Platform":"Desktop",
-    "CPU":"Ryzen 5 Pro 9645",
-    "2024 SingleScore*":"132",
-    "2024 MultiScore**":"969",
-    "Cores":"6(6P)",
     "Max. TDP":"null"
   },
   {
@@ -2513,15 +2513,6 @@
   {
     "Ranking":280,
     "Platform":"Laptop",
-    "CPU":"Ryzen AI 5 435",
-    "2024 SingleScore*":"110",
-    "2024 MultiScore**":"654",
-    "Cores":"6(3E + 3P)",
-    "Max. TDP":"null"
-  },
-  {
-    "Ranking":281,
-    "Platform":"Laptop",
     "CPU":"Ryzen AI 7 445",
     "2024 SingleScore*":"113",
     "2024 MultiScore**":"652",
@@ -2529,7 +2520,7 @@
     "Max. TDP":"null"
   },
   {
-    "Ranking":282,
+    "Ranking":281,
     "Platform":"Laptop",
     "CPU":"Ryzen 9 5980HX",
     "2024 SingleScore*":"95",
@@ -2538,7 +2529,7 @@
     "Max. TDP":"null"
   },
   {
-    "Ranking":283,
+    "Ranking":282,
     "Platform":"Desktop",
     "CPU":"Ryzen 5 5600G",
     "2024 SingleScore*":"87",
@@ -2547,7 +2538,7 @@
     "Max. TDP":"88 W"
   },
   {
-    "Ranking":284,
+    "Ranking":283,
     "Platform":"Desktop",
     "CPU":"Core i5 12400F",
     "2024 SingleScore*":"95",
@@ -2556,7 +2547,7 @@
     "Max. TDP":"117 W"
   },
   {
-    "Ranking":285,
+    "Ranking":284,
     "Platform":"Laptop",
     "CPU":"Core Ultra 7 268V",
     "2024 SingleScore*":"127",
@@ -2565,7 +2556,7 @@
     "Max. TDP":"null"
   },
   {
-    "Ranking":286,
+    "Ranking":285,
     "Platform":"Laptop",
     "CPU":"Core Ultra 7 258V",
     "2024 SingleScore*":"122",
@@ -2574,7 +2565,7 @@
     "Max. TDP":"null"
   },
   {
-    "Ranking":287,
+    "Ranking":286,
     "Platform":"Desktop",
     "CPU":"Core i7 10700KF",
     "2024 SingleScore*":"74",
@@ -2583,7 +2574,7 @@
     "Max. TDP":"null"
   },
   {
-    "Ranking":288,
+    "Ranking":287,
     "Platform":"Laptop",
     "CPU":"Core Ultra 5 325",
     "2024 SingleScore*":"114",
@@ -2592,7 +2583,7 @@
     "Max. TDP":"55 W"
   },
   {
-    "Ranking":289,
+    "Ranking":288,
     "Platform":"Laptop",
     "CPU":"Snapdragon X (X1-26-100)",
     "2024 SingleScore*":"96",
@@ -2601,13 +2592,22 @@
     "Max. TDP":"null"
   },
   {
-    "Ranking":290,
+    "Ranking":289,
     "Platform":"Laptop",
     "CPU":"Core Ultra 9 288V",
     "2024 SingleScore*":"128",
     "2024 MultiScore**":"628",
     "Cores":"8(4E + 4P)",
     "Max. TDP":"37 W"
+  },
+  {
+    "Ranking":290,
+    "Platform":"Laptop",
+    "CPU":"Ryzen AI 5 435",
+    "2024 SingleScore*":"110",
+    "2024 MultiScore**":"624",
+    "Cores":"6(3E + 3P)",
+    "Max. TDP":"null"
   },
   {
     "Ranking":291,
