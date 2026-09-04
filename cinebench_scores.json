@@ -28,6 +28,15 @@
   },
   {
     "Ranking":4,
+    "Platform":"Laptop",
+    "CPU":"M5 Max (40-сore GPU)",
+    "2024 SingleScore*":"199",
+    "2024 MultiScore**":"2456",
+    "Cores":"18(18P)",
+    "Max. TDP":"null"
+  },
+  {
+    "Ranking":5,
     "Platform":"Desktop",
     "CPU":"Ryzen 9 9950X3D",
     "2024 SingleScore*":"138",
@@ -36,7 +45,7 @@
     "Max. TDP":"230 W"
   },
   {
-    "Ranking":5,
+    "Ranking":6,
     "Platform":"Desktop",
     "CPU":"Core i9 14900KS",
     "2024 SingleScore*":"144",
@@ -45,7 +54,16 @@
     "Max. TDP":"253 W"
   },
   {
-    "Ranking":6,
+    "Ranking":7,
+    "Platform":"Laptop",
+    "CPU":"M5 Max (32-сore GPU)",
+    "2024 SingleScore*":"200",
+    "2024 MultiScore**":"2386",
+    "Cores":"18(18P)",
+    "Max. TDP":"null"
+  },
+  {
+    "Ranking":8,
     "Platform":"Desktop",
     "CPU":"Ryzen 9 9950X",
     "2024 SingleScore*":"137",
@@ -54,7 +72,7 @@
     "Max. TDP":"230 W"
   },
   {
-    "Ranking":7,
+    "Ranking":9,
     "Platform":"Desktop",
     "CPU":"Core Ultra 9 285K",
     "2024 SingleScore*":"141",
@@ -63,7 +81,7 @@
     "Max. TDP":"250 W"
   },
   {
-    "Ranking":8,
+    "Ranking":10,
     "Platform":"Desktop",
     "CPU":"Ryzen 9 Pro 9965X3D",
     "2024 SingleScore*":"140",
@@ -72,7 +90,7 @@
     "Max. TDP":"230 W"
   },
   {
-    "Ranking":9,
+    "Ranking":11,
     "Platform":"Laptop",
     "CPU":"Core Ultra 9 285HX",
     "2024 SingleScore*":"126",
@@ -81,7 +99,7 @@
     "Max. TDP":"160 W"
   },
   {
-    "Ranking":10,
+    "Ranking":12,
     "Platform":"Laptop",
     "CPU":"Core Ultra 9 290HX Plus",
     "2024 SingleScore*":"136",
@@ -90,7 +108,7 @@
     "Max. TDP":"160 W"
   },
   {
-    "Ranking":11,
+    "Ranking":13,
     "Platform":"Laptop",
     "CPU":"Ryzen 9 9955HX3D",
     "2024 SingleScore*":"130",
@@ -99,7 +117,7 @@
     "Max. TDP":"101 W"
   },
   {
-    "Ranking":12,
+    "Ranking":14,
     "Platform":"Desktop",
     "CPU":"Core i9 13900KS",
     "2024 SingleScore*":"135",
@@ -108,7 +126,7 @@
     "Max. TDP":"253 W"
   },
   {
-    "Ranking":13,
+    "Ranking":15,
     "Platform":"Laptop",
     "CPU":"Ryzen 9 9955HX",
     "2024 SingleScore*":"134",
@@ -117,7 +135,7 @@
     "Max. TDP":"101 W"
   },
   {
-    "Ranking":14,
+    "Ranking":16,
     "Platform":"Desktop",
     "CPU":"Core i9 14900K",
     "2024 SingleScore*":"129",
@@ -126,7 +144,7 @@
     "Max. TDP":"253 W"
   },
   {
-    "Ranking":15,
+    "Ranking":17,
     "Platform":"Desktop",
     "CPU":"Ryzen 9 7950X",
     "2024 SingleScore*":"120",
@@ -135,16 +153,7 @@
     "Max. TDP":"230 W"
   },
   {
-    "Ranking":16,
-    "Platform":"Laptop",
-    "CPU":"M5 Max (40-сore GPU)",
-    "2024 SingleScore*":"200",
-    "2024 MultiScore**":"2073",
-    "Cores":"18(12E + 6P)",
-    "Max. TDP":"null"
-  },
-  {
-    "Ranking":17,
+    "Ranking":18,
     "Platform":"Desktop",
     "CPU":"Core i9 14900KF",
     "2024 SingleScore*":"129",
@@ -153,7 +162,7 @@
     "Max. TDP":"253 W"
   },
   {
-    "Ranking":18,
+    "Ranking":19,
     "Platform":"Desktop",
     "CPU":"Core i9 14900",
     "2024 SingleScore*":"124",
@@ -162,22 +171,13 @@
     "Max. TDP":"219 W"
   },
   {
-    "Ranking":19,
+    "Ranking":20,
     "Platform":"Desktop",
     "CPU":"Core Ultra 7 265KF",
     "2024 SingleScore*":"138",
     "2024 MultiScore**":"2067",
     "Cores":"20(12E + 8P)",
     "Max. TDP":"250 W"
-  },
-  {
-    "Ranking":20,
-    "Platform":"Laptop",
-    "CPU":"M5 Max (32-сore GPU)",
-    "2024 SingleScore*":"200",
-    "2024 MultiScore**":"2066",
-    "Cores":"18(12E + 6P)",
-    "Max. TDP":"null"
   },
   {
     "Ranking":21,
@@ -248,7 +248,7 @@
     "CPU":"M5 Pro (18-Core)",
     "2024 SingleScore*":"199",
     "2024 MultiScore**":"1949",
-    "Cores":"18(12E + 6P)",
+    "Cores":"18(18P)",
     "Max. TDP":"null"
   },
   {
@@ -347,7 +347,7 @@
     "CPU":"M5 Pro (15-Core)",
     "2024 SingleScore*":"198",
     "2024 MultiScore**":"1850",
-    "Cores":"15(10E + 5P)",
+    "Cores":"15(15P)",
     "Max. TDP":"null"
   },
   {
@@ -1027,15 +1027,6 @@
   },
   {
     "Ranking":115,
-    "Platform":"Laptop",
-    "CPU":"M5 (8-сore GPU)",
-    "2024 SingleScore*":"206",
-    "2024 MultiScore**":"1170",
-    "Cores":"10(6E + 4P)",
-    "Max. TDP":"null"
-  },
-  {
-    "Ranking":116,
     "Platform":"Desktop",
     "CPU":"Ryzen 7 9700F",
     "2024 SingleScore*":"138",
@@ -1044,13 +1035,22 @@
     "Max. TDP":"88 W"
   },
   {
-    "Ranking":117,
+    "Ranking":116,
     "Platform":"Laptop",
     "CPU":"Core Ultra 7 366H",
     "2024 SingleScore*":"123",
     "2024 MultiScore**":"1158",
     "Cores":"16(12E + 4P)",
     "Max. TDP":"80 W"
+  },
+  {
+    "Ranking":117,
+    "Platform":"Laptop",
+    "CPU":"M5 (8-сore GPU)",
+    "2024 SingleScore*":"206",
+    "2024 MultiScore**":"1150",
+    "Cores":"10(6E + 4P)",
+    "Max. TDP":"null"
   },
   {
     "Ranking":118,
