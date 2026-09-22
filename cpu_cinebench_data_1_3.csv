@@ -6,12 +6,12 @@
 5,Laptop,M5 Max (40-сore GPU),199,2456,18(18P),null
 6,Desktop,Ryzen 9 9950X3D,138,2456,16(16P),230 W
 7,Desktop,Core i9 14900KS,144,2443,24(16E + 8P),253 W
-8,Laptop,M5 Max (32-сore GPU),200,2386,18(18P),null
-9,Desktop,Ryzen 9 9950X,137,2320,16(16P),230 W
-10,Desktop,Core Ultra 9 285K,141,2261,24(16E + 8P),250 W
-11,Desktop,Ryzen 9 Pro 9965X3D,140,2248,16(16P),230 W
-12,Laptop,Core Ultra 9 285HX,126,2240,24(16E + 8P),160 W
-13,Laptop,Core Ultra 9 290HX Plus,136,2195,24(16E + 8P),160 W
+8,Laptop,Core Ultra 9 290HX Plus,141,2431,24(16E + 8P),160 W
+9,Laptop,M5 Max (32-сore GPU),200,2386,18(18P),null
+10,Desktop,Ryzen 9 9950X,137,2320,16(16P),230 W
+11,Desktop,Core Ultra 9 285K,141,2261,24(16E + 8P),250 W
+12,Desktop,Ryzen 9 Pro 9965X3D,140,2248,16(16P),230 W
+13,Laptop,Core Ultra 9 285HX,126,2240,24(16E + 8P),160 W
 14,Laptop,Ryzen 9 9955HX3D,130,2160,16(16P),101 W
 15,Desktop,Core i9 13900KS,135,2156,24(16E + 8P),253 W
 16,Laptop,Ryzen 9 9955HX,134,2091,16(16P),101 W
@@ -156,7 +156,7 @@
 155,Desktop,Ryzen 7 8700G,103,995,8(8P),88 W
 156,Laptop,Core Ultra 9 185H,107,987,16(10E + 6P),115 W
 157,Laptop,Core i9 12900H,107,984,14(8E + 6P),115 W
-158,Laptop,M4 (10-Core),172,982,10(6E + 4P),40 W
+158,Laptop,M4 (10-Core),172,982,10(6E + 4P),null
 159,Desktop,Ryzen 9 3900X,74,982,12(12P),null
 160,Laptop,Core Ultra 5 235H,122,979,14(8E + 4P),115 W
 161,Laptop,Ryzen 9 270,107,974,8(8P),null
