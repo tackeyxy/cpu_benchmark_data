@@ -1,14 +1,22 @@
 import requests
 from bs4 import BeautifulSoup
 import pandas as pd
-import json
+import re
 import time
 import random
 from concurrent.futures import ThreadPoolExecutor, as_completed
 
 
+def safe_int(text):
+    """Convert a text like '1,234' / '558' to int, return None on failure."""
+    if text is None:
+        return None
+    digits = re.sub(r"[^\d]", "", str(text))
+    return int(digits) if digits else None
+
+
 def scrape_page(page, base_url, headers):
-    """Scrape a single page and return the data."""
+    """Scrape a single page and return the HTML together with the first ranking on it."""
     url = f"{base_url}?page={page}"
     try:
         response = None
@@ -22,17 +30,32 @@ def scrape_page(page, base_url, headers):
             time.sleep(2 + i)
 
         if not response or response.status_code != 200:
-            return page, None, f"Status: {response.status_code if response else 'Timeout'}"
+            return page, None, None, f"Status: {response.status_code if response else 'Timeout'}"
 
         soup = BeautifulSoup(response.text, 'html.parser')
         table = soup.find('table')
         if not table:
-            return page, None, "No table found"
+            return page, None, None, "No table found"
 
-        return page, response.text, None
+        first_rank = _first_rank(table)
+
+        return page, response.text, first_rank, None
 
     except Exception as e:
-        return page, None, str(e)
+        return page, None, None, str(e)
+
+
+def _first_rank(table):
+    """Return the rank shown on the first data row of a table (None if not present)."""
+    tbody = table.find('tbody')
+    rows = tbody.find_all('tr') if tbody else table.find_all('tr')[1:]
+    for row in rows:
+        cols = row.find_all('td')
+        if cols:
+            rank = safe_int(cols[0].get_text(strip=True))
+            if rank is not None:
+                return rank
+    return None
 
 
 def parse_page(html):
@@ -51,7 +74,7 @@ def parse_page(html):
         column_names = [th.get_text(strip=True) for th in thead.find_all('th') if th.get_text(strip=True)]
 
     if not column_names:
-        column_names = ["Rank", "CPU Model", "Cinebench R23 (Single)", "Cinebench R23 (Multi)", "Cinebench R20"]
+        column_names = ["#", "CPU", "Single Score", "Multi Score", "Cores", "Max. TDP"]
 
     tbody = table.find('tbody')
     rows = tbody.find_all('tr') if tbody else table.find_all('tr')[1:]
@@ -69,11 +92,53 @@ def parse_page(html):
     return column_names, data
 
 
+def _normalize_cpu_name(name):
+    """Strip a trailing 'Desktop'/'Laptop' marker inside a CPU name and return (name, platform)."""
+    if name.endswith('Desktop'):
+        return name[:-7].strip(), 'Desktop'
+    if name.endswith('Laptop'):
+        return name[:-6].strip(), 'Laptop'
+    return name, ''
+
+
+def _extract_platform_map(html):
+    """Map ranking -> Platform by reading the data-sort attribute of the CPU cell.
+
+    The site stores the platform in the second column as data-sort="desktop"/"laptop",
+    which is far more reliable than guessing from the CPU name.
+    """
+    platform_map = {}
+    if not html:
+        return platform_map
+
+    soup = BeautifulSoup(html, 'html.parser')
+    table = soup.find('table')
+    if not table:
+        return platform_map
+
+    tbody = table.find('tbody')
+    rows = tbody.find_all('tr') if tbody else table.find_all('tr')[1:]
+    for row in rows:
+        cols = row.find_all('td')
+        if len(cols) < 2:
+            continue
+        rank = safe_int(cols[0].get_text(strip=True))
+        if rank is None:
+            continue
+        platform = (cols[1].get('data-sort') or '').strip().capitalize()
+        if platform in ('Desktop', 'Laptop') and rank not in platform_map:
+            platform_map[rank] = platform
+
+    return platform_map
+
+
 def scrape_nanoreview_cpu_scores(start_page=1, end_page=3, max_workers=3):
     """Scrape CPU Cinebench scores from nanoreview.net using multi-threading."""
     base_url = "https://nanoreview.net/en/cpu-list/cinebench-scores"
     all_data = []
     column_names = []
+    platform_map = {}
+    page_first_rank = {}
 
     headers = {
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
@@ -90,10 +155,13 @@ def scrape_nanoreview_cpu_scores(start_page=1, end_page=3, max_workers=3):
         for future in as_completed(futures):
             page = futures[future]
             try:
-                page_num, html, error = future.result()
+                page_num, html, first_rank, error = future.result()
                 if error:
                     print(f"第 {page_num} 页抓取失败: {error}")
                     continue
+
+                page_first_rank[page_num] = first_rank
+                platform_map.update(_extract_platform_map(html))
 
                 cols, data = parse_page(html)
                 if not column_names and cols:
@@ -110,6 +178,17 @@ def scrape_nanoreview_cpu_scores(start_page=1, end_page=3, max_workers=3):
             except Exception as e:
                 print(f"第 {page} 页处理异常: {e}")
 
+    # 分页失效检测：?page=N 参数被忽略时，每一页返回的都是同一份第 1 页数据，
+    # 直接合并就会得到 N 份完全相同的记录（默认 3 页 => 每条数据重复 3 次）。
+    dup_factor = 1
+    valid_ranks = [r for r in page_first_rank.values() if r is not None]
+    if len(valid_ranks) > 1 and len(set(valid_ranks)) == 1:
+        dup_factor = len(valid_ranks)
+        print(
+            f"\n[警告] 检测到第 {start_page}-{end_page} 页返回了相同的起始排名 (#{valid_ranks[0]})，"
+            f"网站已忽略 ?page= 分页参数，仅保留第 1 页数据。"
+        )
+
     if all_data:
         df = pd.DataFrame(all_data, columns=column_names)
 
@@ -117,19 +196,34 @@ def scrape_nanoreview_cpu_scores(start_page=1, end_page=3, max_workers=3):
         ranking_col = 'Ranking' if 'Ranking' in df.columns else '#'
         if ranking_col in df.columns:
             df[ranking_col] = pd.to_numeric(df[ranking_col], errors='coerce')
-            df = df.sort_values(by=ranking_col, ascending=True).reset_index(drop=True)
+            df = df.sort_values(by=ranking_col, ascending=True, kind='stable')
+
+            # 去重保护：分页重复 / 站点本身重复时，仅保留首条记录
+            before = len(df)
+            df = df.drop_duplicates()
+            if len(df) != before:
+                print(f"已去除 {before - len(df)} 条完全重复的记录。")
+
+            if dup_factor > 1:
+                df = df.drop_duplicates(subset=[ranking_col], keep='first')
+            df = df.reset_index(drop=True)
 
         # Rename "#" to "Ranking"
         if '#' in df.columns:
             df.rename(columns={'#': 'Ranking'}, inplace=True)
 
-        # Extract Platform from CPU column (Desktop/Laptop)
-        df['Platform'] = df['CPU'].apply(
-            lambda x: 'Desktop' if x.endswith('Desktop') else ('Laptop' if x.endswith('Laptop') else '')
-        )
-        df['CPU'] = df['CPU'].apply(
-            lambda x: x[:-7] if x.endswith('Desktop') else (x[:-6] if x.endswith('Laptop') else x)
-        )
+        # Extract Platform from CPU column (Desktop/Laptop) as a fallback
+        df['CPU'] = df['CPU'].astype(str)
+        parsed = df['CPU'].apply(_normalize_cpu_name)
+        df['CPU'] = parsed.apply(lambda x: x[0])
+        df['Platform'] = parsed.apply(lambda x: x[1])
+
+        # Prefer the platform marker provided by the site itself
+        if 'Ranking' in df.columns:
+            site_platform = df['Ranking'].map(platform_map)
+            df['Platform'] = site_platform.fillna(df['Platform'])
+
+        df['Platform'] = df['Platform'].replace('', 'null')
 
         # Reorder columns: CPU, Platform, then the rest
         cols = df.columns.tolist()

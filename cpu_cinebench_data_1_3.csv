@@ -1,244 +1,82 @@
 ﻿Ranking,Platform,CPU,2026 SingleScore*,2026 MultiScore**,Cores,Max. TDP
 1,Desktop,Ryzen 9 9950X3D2,558,10459,16(16P),270 W
-1,Desktop,Ryzen 9 9950X3D2,558,10459,16(16P),270 W
-1,Desktop,Ryzen 9 9950X3D2,558,10459,16(16P),270 W
-2,Desktop,Ryzen 9 9950X3D,753,9861,16(16P),230 W
-2,Desktop,Ryzen 9 9950X3D,753,9861,16(16P),230 W
 2,Desktop,Ryzen 9 9950X3D,753,9861,16(16P),230 W
 3,Desktop,Core Ultra 7 270K Plus,595,9722,24(16E + 8P),250 W
-3,Desktop,Core Ultra 7 270K Plus,595,9722,24(16E + 8P),250 W
-3,Desktop,Core Ultra 7 270K Plus,595,9722,24(16E + 8P),250 W
-4,Laptop,Core Ultra 9 290HX Plus,588,9708,24(16E + 8P),160 W
-4,Laptop,Core Ultra 9 290HX Plus,588,9708,24(16E + 8P),160 W
 4,Laptop,Core Ultra 9 290HX Plus,588,9708,24(16E + 8P),160 W
 5,Desktop,Ryzen 9 7950X,679,8943,16(16P),230 W
-5,Desktop,Ryzen 9 7950X,679,8943,16(16P),230 W
-5,Desktop,Ryzen 9 7950X,679,8943,16(16P),230 W
-6,Laptop,Ryzen 9 9955HX,717,8163,16(16P),101 W
-6,Laptop,Ryzen 9 9955HX,717,8163,16(16P),101 W
 6,Laptop,Ryzen 9 9955HX,717,8163,16(16P),101 W
 7,Desktop,Core i9 13900K,673,8146,24(16E + 8P),253 W
-7,Desktop,Core i9 13900K,673,8146,24(16E + 8P),253 W
-7,Desktop,Core i9 13900K,673,8146,24(16E + 8P),253 W
-8,Laptop,Core Ultra 9 275HX,500,7832,24(16E + 8P),160 W
-8,Laptop,Core Ultra 9 275HX,500,7832,24(16E + 8P),160 W
 8,Laptop,Core Ultra 9 275HX,500,7832,24(16E + 8P),160 W
 9,Desktop,Ryzen 9 9950X,724,7630,16(16P),230 W
-9,Desktop,Ryzen 9 9950X,724,7630,16(16P),230 W
-9,Desktop,Ryzen 9 9950X,724,7630,16(16P),230 W
-10,Desktop,Ryzen 9 9900X,763,7580,12(12P),162 W
-10,Desktop,Ryzen 9 9900X,763,7580,12(12P),162 W
 10,Desktop,Ryzen 9 9900X,763,7580,12(12P),162 W
 11,Desktop,Core i7 14700K,668,7576,20(12E + 8P),253 W
-11,Desktop,Core i7 14700K,668,7576,20(12E + 8P),253 W
-11,Desktop,Core i7 14700K,668,7576,20(12E + 8P),253 W
-12,Laptop,Ryzen AI Max+ 395,619,7559,16(16P),null
-12,Laptop,Ryzen AI Max+ 395,619,7559,16(16P),null
 12,Laptop,Ryzen AI Max+ 395,619,7559,16(16P),null
 13,Desktop,Core Ultra 5 250K Plus,575,7413,18(12E + 6P),159 W
-13,Desktop,Core Ultra 5 250K Plus,575,7413,18(12E + 6P),159 W
-13,Desktop,Core Ultra 5 250K Plus,575,7413,18(12E + 6P),159 W
-14,Desktop,Core i9 14900KF,690,7372,24(16E + 8P),253 W
-14,Desktop,Core i9 14900KF,690,7372,24(16E + 8P),253 W
 14,Desktop,Core i9 14900KF,690,7372,24(16E + 8P),253 W
 15,Laptop,M5 Pro (15-Core),720,7161,15(15P),null
-15,Laptop,M5 Pro (15-Core),720,7161,15(15P),null
-15,Laptop,M5 Pro (15-Core),720,7161,15(15P),null
-16,Desktop,Core i7 14700KF,672,7147,20(12E + 8P),253 W
-16,Desktop,Core i7 14700KF,672,7147,20(12E + 8P),253 W
 16,Desktop,Core i7 14700KF,672,7147,20(12E + 8P),253 W
 17,Desktop,Core i7 13700K,659,6859,16(8E + 8P),253 W
-17,Desktop,Core i7 13700K,659,6859,16(8E + 8P),253 W
-17,Desktop,Core i7 13700K,659,6859,16(8E + 8P),253 W
-18,Laptop,Snapdragon X2 Elite (X2E-90-100),677,6460,18(18P),null
-18,Laptop,Snapdragon X2 Elite (X2E-90-100),677,6460,18(18P),null
 18,Laptop,Snapdragon X2 Elite (X2E-90-100),677,6460,18(18P),null
 19,Desktop,Ryzen 9 5950X,464,5693,16(16P),142 W
-19,Desktop,Ryzen 9 5950X,464,5693,16(16P),142 W
-19,Desktop,Ryzen 9 5950X,464,5693,16(16P),142 W
-20,Desktop,Core i5 13600K,492,5581,14(8E + 6P),181 W
-20,Desktop,Core i5 13600K,492,5581,14(8E + 6P),181 W
 20,Desktop,Core i5 13600K,492,5581,14(8E + 6P),181 W
 21,Laptop,Core Ultra X9 388H,539,5375,16(12E + 4P),80 W
-21,Laptop,Core Ultra X9 388H,539,5375,16(12E + 4P),80 W
-21,Laptop,Core Ultra X9 388H,539,5375,16(12E + 4P),80 W
-22,Desktop,Ryzen 7 9850X3D,730,5315,8(8P),162 W
-22,Desktop,Ryzen 7 9850X3D,730,5315,8(8P),162 W
 22,Desktop,Ryzen 7 9850X3D,730,5315,8(8P),162 W
 23,Laptop,Ryzen AI 9 HX 470,491,5224,12(8E + 4P),null
-23,Laptop,Ryzen AI 9 HX 470,491,5224,12(8E + 4P),null
-23,Laptop,Ryzen AI 9 HX 470,491,5224,12(8E + 4P),null
-24,Laptop,Core Ultra X9 378H,535,5201,16(12E + 4P),80 W
-24,Laptop,Core Ultra X9 378H,535,5201,16(12E + 4P),80 W
 24,Laptop,Core Ultra X9 378H,535,5201,16(12E + 4P),80 W
 25,Laptop,Ryzen AI 9 HX 370,475,5200,12(8E + 4P),null
-25,Laptop,Ryzen AI 9 HX 370,475,5200,12(8E + 4P),null
-25,Laptop,Ryzen AI 9 HX 370,475,5200,12(8E + 4P),null
-26,Desktop,Core i5 13500,457,5184,14(8E + 6P),154 W
-26,Desktop,Core i5 13500,457,5184,14(8E + 6P),154 W
 26,Desktop,Core i5 13500,457,5184,14(8E + 6P),154 W
 27,Desktop,Ryzen 7 9800X3D,708,5087,8(8P),162 W
-27,Desktop,Ryzen 7 9800X3D,708,5087,8(8P),162 W
-27,Desktop,Ryzen 7 9800X3D,708,5087,8(8P),162 W
-28,Desktop,Core i5 14600K,628,4994,14(8E + 6P),181 W
-28,Desktop,Core i5 14600K,628,4994,14(8E + 6P),181 W
 28,Desktop,Core i5 14600K,628,4994,14(8E + 6P),181 W
 29,Laptop,Core Ultra 9 285H,506,4879,16(10E + 6P),115 W
-29,Laptop,Core Ultra 9 285H,506,4879,16(10E + 6P),115 W
-29,Laptop,Core Ultra 9 285H,506,4879,16(10E + 6P),115 W
-30,Desktop,Ryzen 7 9700X,760,4822,8(8P),142 W
-30,Desktop,Ryzen 7 9700X,760,4822,8(8P),142 W
 30,Desktop,Ryzen 7 9700X,760,4822,8(8P),142 W
 31,Desktop,Core i7 12700K,597,4728,12(4E + 8P),190 W
-31,Desktop,Core i7 12700K,597,4728,12(4E + 8P),190 W
-31,Desktop,Core i7 12700K,597,4728,12(4E + 8P),190 W
-32,Laptop,Core Ultra X7 358H,502,4689,16(12E + 4P),80 W
-32,Laptop,Core Ultra X7 358H,502,4689,16(12E + 4P),80 W
 32,Laptop,Core Ultra X7 358H,502,4689,16(12E + 4P),80 W
 33,Laptop,Core Ultra 9 386H,502,4687,16(12E + 4P),80 W
-33,Laptop,Core Ultra 9 386H,502,4687,16(12E + 4P),80 W
-33,Laptop,Core Ultra 9 386H,502,4687,16(12E + 4P),80 W
-34,Laptop,Snapdragon X2 Elite (X2E-84-100),648,4609,12(12P),null
-34,Laptop,Snapdragon X2 Elite (X2E-84-100),648,4609,12(12P),null
 34,Laptop,Snapdragon X2 Elite (X2E-84-100),648,4609,12(12P),null
 35,Laptop,Core i7 14700HX,633,4593,20(12E + 8P),157 W
-35,Laptop,Core i7 14700HX,633,4593,20(12E + 8P),157 W
-35,Laptop,Core i7 14700HX,633,4593,20(12E + 8P),157 W
-36,Desktop,Ryzen 7 7700X,619,4481,8(8P),142 W
-36,Desktop,Ryzen 7 7700X,619,4481,8(8P),142 W
 36,Desktop,Ryzen 7 7700X,619,4481,8(8P),142 W
 37,Laptop,Core i9 13900H,614,4378,14(8E + 6P),115 W
-37,Laptop,Core i9 13900H,614,4378,14(8E + 6P),115 W
-37,Laptop,Core i9 13900H,614,4378,14(8E + 6P),115 W
-38,Desktop,Ryzen 7 7800X3D,575,4363,8(8P),162 W
-38,Desktop,Ryzen 7 7800X3D,575,4363,8(8P),162 W
 38,Desktop,Ryzen 7 7800X3D,575,4363,8(8P),162 W
 39,Laptop,Ryzen AI 9 465,451,4354,10(6E + 4P),null
-39,Laptop,Ryzen AI 9 465,451,4354,10(6E + 4P),null
-39,Laptop,Ryzen AI 9 465,451,4354,10(6E + 4P),null
-40,Laptop,Core i9 9980HK,646,4296,8(8P),null
-40,Laptop,Core i9 9980HK,646,4296,8(8P),null
 40,Laptop,Core i9 9980HK,646,4296,8(8P),null
 41,Laptop,Ryzen 7 8845HS,570,4125,8(8P),null
-41,Laptop,Ryzen 7 8845HS,570,4125,8(8P),null
-41,Laptop,Ryzen 7 8845HS,570,4125,8(8P),null
-42,Laptop,Core Ultra 5 338H,501,3840,12(8E + 4P),80 W
-42,Laptop,Core Ultra 5 338H,501,3840,12(8E + 4P),80 W
 42,Laptop,Core Ultra 5 338H,501,3840,12(8E + 4P),80 W
 43,Laptop,Core Ultra 7 155H,544,3749,16(10E + 6P),115 W
-43,Laptop,Core Ultra 7 155H,544,3749,16(10E + 6P),115 W
-43,Laptop,Core Ultra 7 155H,544,3749,16(10E + 6P),115 W
-44,Desktop,Ryzen 5 9600X,720,3701,6(6P),142 W
-44,Desktop,Ryzen 5 9600X,720,3701,6(6P),142 W
 44,Desktop,Ryzen 5 9600X,720,3701,6(6P),142 W
 45,Laptop,Core i7 14650HX,614,3655,16(8E + 8P),157 W
-45,Laptop,Core i7 14650HX,614,3655,16(8E + 8P),157 W
-45,Laptop,Core i7 14650HX,614,3655,16(8E + 8P),157 W
-46,Desktop,Ryzen 7 7700,569,3635,8(8P),142 W
-46,Desktop,Ryzen 7 7700,569,3635,8(8P),142 W
 46,Desktop,Ryzen 7 7700,569,3635,8(8P),142 W
 47,Desktop,Ryzen 5 7500F,612,3520,6(6P),null
-47,Desktop,Ryzen 5 7500F,612,3520,6(6P),null
-47,Desktop,Ryzen 5 7500F,612,3520,6(6P),null
-48,Laptop,Core i5 13500H,570,3478,12(8E + 4P),95 W
-48,Laptop,Core i5 13500H,570,3478,12(8E + 4P),95 W
 48,Laptop,Core i5 13500H,570,3478,12(8E + 4P),95 W
 49,Desktop,Ryzen 7 5800X,483,3448,8(8P),142 W
-49,Desktop,Ryzen 7 5800X,483,3448,8(8P),142 W
-49,Desktop,Ryzen 7 5800X,483,3448,8(8P),142 W
-50,Desktop,Core i5 13400F,551,3442,10(4E + 6P),148 W
-50,Desktop,Core i5 13400F,551,3442,10(4E + 6P),148 W
 50,Desktop,Core i5 13400F,551,3442,10(4E + 6P),148 W
 51,Laptop,Ryzen AI 7 350,642,3390,8(4E + 4P),null
-51,Laptop,Ryzen AI 7 350,642,3390,8(4E + 4P),null
-51,Laptop,Ryzen AI 7 350,642,3390,8(4E + 4P),null
-52,Laptop,M1 Pro,444,3334,10(2E + 8P),null
-52,Laptop,M1 Pro,444,3334,10(2E + 8P),null
 52,Laptop,M1 Pro,444,3334,10(2E + 8P),null
 53,Laptop,Ryzen 7 8745HS,536,3317,8(8P),null
-53,Laptop,Ryzen 7 8745HS,536,3317,8(8P),null
-53,Laptop,Ryzen 7 8745HS,536,3317,8(8P),null
-54,Desktop,Ryzen 7 5700X,477,3191,8(8P),88 W
-54,Desktop,Ryzen 7 5700X,477,3191,8(8P),88 W
 54,Desktop,Ryzen 7 5700X,477,3191,8(8P),88 W
 55,Laptop,Core i5 13450HX,540,3145,10(4E + 6P),157 W
-55,Laptop,Core i5 13450HX,540,3145,10(4E + 6P),157 W
-55,Laptop,Core i5 13450HX,540,3145,10(4E + 6P),157 W
-56,Desktop,Ryzen 5 7600,597,3144,6(6P),88 W
-56,Desktop,Ryzen 5 7600,597,3144,6(6P),88 W
 56,Desktop,Ryzen 5 7600,597,3144,6(6P),88 W
 57,Laptop,Ryzen 7 6800H,437,3117,8(8P),null
-57,Laptop,Ryzen 7 6800H,437,3117,8(8P),null
-57,Laptop,Ryzen 7 6800H,437,3117,8(8P),null
-58,Laptop,Core Ultra 5 325,453,2539,8(4E + 4P),55 W
-58,Laptop,Core Ultra 5 325,453,2539,8(4E + 4P),55 W
 58,Laptop,Core Ultra 5 325,453,2539,8(4E + 4P),55 W
 59,Desktop,Ryzen 5 5600X,459,2477,6(6P),88 W
-59,Desktop,Ryzen 5 5600X,459,2477,6(6P),88 W
-59,Desktop,Ryzen 5 5600X,459,2477,6(6P),88 W
-60,Laptop,Ryzen 7 4800H,300,2472,8(8P),null
-60,Laptop,Ryzen 7 4800H,300,2472,8(8P),null
 60,Laptop,Ryzen 7 4800H,300,2472,8(8P),null
 61,Desktop,Ryzen 5 5500,424,2421,6(6P),null
-61,Desktop,Ryzen 5 5500,424,2421,6(6P),null
-61,Desktop,Ryzen 5 5500,424,2421,6(6P),null
-62,Desktop,Ryzen 5 5600,443,2376,6(6P),null
-62,Desktop,Ryzen 5 5600,443,2376,6(6P),null
 62,Desktop,Ryzen 5 5600,443,2376,6(6P),null
 63,Laptop,Core i5 12450HX,509,2322,8(4E + 4P),157 W
-63,Laptop,Core i5 12450HX,509,2322,8(4E + 4P),157 W
-63,Laptop,Core i5 12450HX,509,2322,8(4E + 4P),157 W
-64,Desktop,Ryzen 5 5600G,409,2218,6(6P),88 W
-64,Desktop,Ryzen 5 5600G,409,2218,6(6P),88 W
 64,Desktop,Ryzen 5 5600G,409,2218,6(6P),88 W
 65,Desktop,Core i7 8700,394,2122,6(6P),null
-65,Desktop,Core i7 8700,394,2122,6(6P),null
-65,Desktop,Core i7 8700,394,2122,6(6P),null
-66,Desktop,Core i5 14500,409,2104,14(8E + 6P),154 W
-66,Desktop,Core i5 14500,409,2104,14(8E + 6P),154 W
 66,Desktop,Core i5 14500,409,2104,14(8E + 6P),154 W
 67,Desktop,Core i3 13100F,730,2072,4(4P),89 W
-67,Desktop,Core i3 13100F,730,2072,4(4P),89 W
-67,Desktop,Core i3 13100F,730,2072,4(4P),89 W
-68,Desktop,Ryzen 5 3600,388,2039,6(6P),null
-68,Desktop,Ryzen 5 3600,388,2039,6(6P),null
 68,Desktop,Ryzen 5 3600,388,2039,6(6P),null
 69,Desktop,Core i5 10400F,353,1994,6(6P),null
-69,Desktop,Core i5 10400F,353,1994,6(6P),null
-69,Desktop,Core i5 10400F,353,1994,6(6P),null
-70,Laptop,Core i7 11800H,392,1974,8(8P),null
-70,Laptop,Core i7 11800H,392,1974,8(8P),null
 70,Laptop,Core i7 11800H,392,1974,8(8P),null
 71,Laptop,Ryzen 7 5700U,393,1943,8(8P),null
-71,Laptop,Ryzen 7 5700U,393,1943,8(8P),null
-71,Laptop,Ryzen 7 5700U,393,1943,8(8P),null
-72,Laptop,Ryzen 5 150,424,1935,6(6P),null
-72,Laptop,Ryzen 5 150,424,1935,6(6P),null
 72,Laptop,Ryzen 5 150,424,1935,6(6P),null
 73,Desktop,Core i5 12400,295,1710,6(6P),117 W
-73,Desktop,Core i5 12400,295,1710,6(6P),117 W
-73,Desktop,Core i5 12400,295,1710,6(6P),117 W
-74,Laptop,Core i5 13420H,384,1546,8(4E + 4P),95 W
-74,Laptop,Core i5 13420H,384,1546,8(4E + 4P),95 W
 74,Laptop,Core i5 13420H,384,1546,8(4E + 4P),95 W
 75,Laptop,Core i5 11320H,561,1227,4(4P),null
-75,Laptop,Core i5 11320H,561,1227,4(4P),null
-75,Laptop,Core i5 11320H,561,1227,4(4P),null
-76,Desktop,Ryzen 3 4300G,688,1067,4(4P),null
-76,Desktop,Ryzen 3 4300G,688,1067,4(4P),null
 76,Desktop,Ryzen 3 4300G,688,1067,4(4P),null
 77,Laptop,Core i5 1235U,400,1046,10(8E + 2P),55 W
-77,Laptop,Core i5 1235U,400,1046,10(8E + 2P),55 W
-77,Laptop,Core i5 1235U,400,1046,10(8E + 2P),55 W
-78,Laptop,Core i5 8350U,450,944,4(4P),null
-78,Laptop,Core i5 8350U,450,944,4(4P),null
 78,Laptop,Core i5 8350U,450,944,4(4P),null
 79,Laptop,Core i7 1165G7,588,911,4(4P),null
-79,Laptop,Core i7 1165G7,588,911,4(4P),null
-79,Laptop,Core i7 1165G7,588,911,4(4P),null
 80,Laptop,Core 5 320,113,566,6(4E + 2P),35 W
-80,Laptop,Core 5 320,113,566,6(4E + 2P),35 W
-80,Laptop,Core 5 320,113,566,6(4E + 2P),35 W
-81,Laptop,Core 3 304,109,550,5(4E + 1P),35 W
-81,Laptop,Core 3 304,109,550,5(4E + 1P),35 W
 81,Laptop,Core 3 304,109,550,5(4E + 1P),35 W
