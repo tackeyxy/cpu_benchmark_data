@@ -713,6 +713,15 @@
   {
     "Ranking":80,
     "Platform":"Laptop",
+    "CPU":"Core 5 330",
+    "2026 SingleScore*":"112",
+    "2026 MultiScore**":"569",
+    "Cores":"6(4E + 2P)",
+    "Max. TDP":"35 W"
+  },
+  {
+    "Ranking":81,
+    "Platform":"Laptop",
     "CPU":"Core 5 320",
     "2026 SingleScore*":"113",
     "2026 MultiScore**":"566",
@@ -720,7 +729,7 @@
     "Max. TDP":"35 W"
   },
   {
-    "Ranking":81,
+    "Ranking":82,
     "Platform":"Laptop",
     "CPU":"Core 3 304",
     "2026 SingleScore*":"109",

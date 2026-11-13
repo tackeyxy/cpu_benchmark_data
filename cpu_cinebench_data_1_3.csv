@@ -78,5 +78,6 @@
 77,Laptop,Core i5 1235U,400,1046,10(8E + 2P),55 W
 78,Laptop,Core i5 8350U,450,944,4(4P),null
 79,Laptop,Core i7 1165G7,588,911,4(4P),null
-80,Laptop,Core 5 320,113,566,6(4E + 2P),35 W
-81,Laptop,Core 3 304,109,550,5(4E + 1P),35 W
+80,Laptop,Core 5 330,112,569,6(4E + 2P),35 W
+81,Laptop,Core 5 320,113,566,6(4E + 2P),35 W
+82,Laptop,Core 3 304,109,550,5(4E + 1P),35 W
