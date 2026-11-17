@@ -515,6 +515,15 @@
   {
     "Ranking":58,
     "Platform":"Laptop",
+    "CPU":"Core Ultra 7 355",
+    "2026 SingleScore*":"475",
+    "2026 MultiScore**":"2606",
+    "Cores":"8(4E + 4P)",
+    "Max. TDP":"55 W"
+  },
+  {
+    "Ranking":59,
+    "Platform":"Laptop",
     "CPU":"Core Ultra 5 325",
     "2026 SingleScore*":"453",
     "2026 MultiScore**":"2539",
@@ -522,7 +531,7 @@
     "Max. TDP":"55 W"
   },
   {
-    "Ranking":59,
+    "Ranking":60,
     "Platform":"Desktop",
     "CPU":"Ryzen 5 5600X",
     "2026 SingleScore*":"459",
@@ -531,7 +540,7 @@
     "Max. TDP":"88 W"
   },
   {
-    "Ranking":60,
+    "Ranking":61,
     "Platform":"Laptop",
     "CPU":"Ryzen 7 4800H",
     "2026 SingleScore*":"300",
@@ -540,7 +549,7 @@
     "Max. TDP":"null"
   },
   {
-    "Ranking":61,
+    "Ranking":62,
     "Platform":"Desktop",
     "CPU":"Ryzen 5 5500",
     "2026 SingleScore*":"424",
@@ -549,7 +558,7 @@
     "Max. TDP":"null"
   },
   {
-    "Ranking":62,
+    "Ranking":63,
     "Platform":"Desktop",
     "CPU":"Ryzen 5 5600",
     "2026 SingleScore*":"443",
@@ -558,7 +567,7 @@
     "Max. TDP":"null"
   },
   {
-    "Ranking":63,
+    "Ranking":64,
     "Platform":"Laptop",
     "CPU":"Core i5 12450HX",
     "2026 SingleScore*":"509",
@@ -567,7 +576,7 @@
     "Max. TDP":"157 W"
   },
   {
-    "Ranking":64,
+    "Ranking":65,
     "Platform":"Desktop",
     "CPU":"Ryzen 5 5600G",
     "2026 SingleScore*":"409",
@@ -576,7 +585,7 @@
     "Max. TDP":"88 W"
   },
   {
-    "Ranking":65,
+    "Ranking":66,
     "Platform":"Desktop",
     "CPU":"Core i7 8700",
     "2026 SingleScore*":"394",
@@ -585,7 +594,7 @@
     "Max. TDP":"null"
   },
   {
-    "Ranking":66,
+    "Ranking":67,
     "Platform":"Desktop",
     "CPU":"Core i5 14500",
     "2026 SingleScore*":"409",
@@ -594,7 +603,7 @@
     "Max. TDP":"154 W"
   },
   {
-    "Ranking":67,
+    "Ranking":68,
     "Platform":"Desktop",
     "CPU":"Core i3 13100F",
     "2026 SingleScore*":"730",
@@ -603,7 +612,7 @@
     "Max. TDP":"89 W"
   },
   {
-    "Ranking":68,
+    "Ranking":69,
     "Platform":"Desktop",
     "CPU":"Ryzen 5 3600",
     "2026 SingleScore*":"388",
@@ -612,7 +621,7 @@
     "Max. TDP":"null"
   },
   {
-    "Ranking":69,
+    "Ranking":70,
     "Platform":"Desktop",
     "CPU":"Core i5 10400F",
     "2026 SingleScore*":"353",
@@ -621,7 +630,7 @@
     "Max. TDP":"null"
   },
   {
-    "Ranking":70,
+    "Ranking":71,
     "Platform":"Laptop",
     "CPU":"Core i7 11800H",
     "2026 SingleScore*":"392",
@@ -630,7 +639,7 @@
     "Max. TDP":"null"
   },
   {
-    "Ranking":71,
+    "Ranking":72,
     "Platform":"Laptop",
     "CPU":"Ryzen 7 5700U",
     "2026 SingleScore*":"393",
@@ -639,7 +648,7 @@
     "Max. TDP":"null"
   },
   {
-    "Ranking":72,
+    "Ranking":73,
     "Platform":"Laptop",
     "CPU":"Ryzen 5 150",
     "2026 SingleScore*":"424",
@@ -648,7 +657,7 @@
     "Max. TDP":"null"
   },
   {
-    "Ranking":73,
+    "Ranking":74,
     "Platform":"Desktop",
     "CPU":"Core i5 12400",
     "2026 SingleScore*":"295",
@@ -657,7 +666,7 @@
     "Max. TDP":"117 W"
   },
   {
-    "Ranking":74,
+    "Ranking":75,
     "Platform":"Laptop",
     "CPU":"Core i5 13420H",
     "2026 SingleScore*":"384",
@@ -666,7 +675,7 @@
     "Max. TDP":"95 W"
   },
   {
-    "Ranking":75,
+    "Ranking":76,
     "Platform":"Laptop",
     "CPU":"Core i5 11320H",
     "2026 SingleScore*":"561",
@@ -675,7 +684,7 @@
     "Max. TDP":"null"
   },
   {
-    "Ranking":76,
+    "Ranking":77,
     "Platform":"Desktop",
     "CPU":"Ryzen 3 4300G",
     "2026 SingleScore*":"688",
@@ -684,7 +693,7 @@
     "Max. TDP":"null"
   },
   {
-    "Ranking":77,
+    "Ranking":78,
     "Platform":"Laptop",
     "CPU":"Core i5 1235U",
     "2026 SingleScore*":"400",
@@ -693,7 +702,7 @@
     "Max. TDP":"55 W"
   },
   {
-    "Ranking":78,
+    "Ranking":79,
     "Platform":"Laptop",
     "CPU":"Core i5 8350U",
     "2026 SingleScore*":"450",
@@ -702,7 +711,7 @@
     "Max. TDP":"null"
   },
   {
-    "Ranking":79,
+    "Ranking":80,
     "Platform":"Laptop",
     "CPU":"Core i7 1165G7",
     "2026 SingleScore*":"588",
@@ -711,7 +720,7 @@
     "Max. TDP":"null"
   },
   {
-    "Ranking":80,
+    "Ranking":81,
     "Platform":"Laptop",
     "CPU":"Core 5 330",
     "2026 SingleScore*":"112",
@@ -720,7 +729,7 @@
     "Max. TDP":"35 W"
   },
   {
-    "Ranking":81,
+    "Ranking":82,
     "Platform":"Laptop",
     "CPU":"Core 5 320",
     "2026 SingleScore*":"113",
@@ -729,7 +738,7 @@
     "Max. TDP":"35 W"
   },
   {
-    "Ranking":82,
+    "Ranking":83,
     "Platform":"Laptop",
     "CPU":"Core 3 304",
     "2026 SingleScore*":"109",
